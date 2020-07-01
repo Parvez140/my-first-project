@@ -1,0 +1,40 @@
+body{
+    margin: 0px;padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.name-color{
+    color: #ff4177;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, #c76581, #ff4177);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;  
+}
+.Biography-banner{
+    background-image: url("images/biography-bg.png");
+}
+#biography-width{
+    padding-top: 100px;
+}
