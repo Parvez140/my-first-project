@@ -8,6 +8,12 @@ h1{
 h2{
     font-size: 40px;
 }
+h6{
+    color: dimgray;
+}
+p{
+    color: dimgray;
+}
 .name-color{
     color: #ff4177;
 }
@@ -38,6 +44,7 @@ section{
 }
 .Biography-banner{
     background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
 }
 #biography-width{
     padding-top: 100px;
@@ -45,8 +52,56 @@ section{
 .single-experiences{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 80%;
+    height: 60%;
 }
 .exp-position{
     text-align: center;
 }
+#full-stak{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ff3d74, rgb(251, 71, 39));
+    border-image-slice: 1;
+}
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(251, 100, 12), rgb(233, 173, 7));
+    border-image-slice: 1;
+}
+.orange-highlite{
+    color: orange;
+}
+.my-work{
+    width: 29%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+.work-banner{
+    background-image: url("images/latest-work-bg.png"); 
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 0px;
+}
+.client{
+    text-align: center;
+}
+#message-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #c76581, #ff4177);
+    padding: 40px 20px;
+    border-radius: 5px;
+    color: white;
+
+}
+.footer-banner{
+    background-image: url("images/footer-bg.png");
+    height: 400px;
+}
+.experiences-area{
+    padding-bottom: 0px;
+}
+footer p{
+    text-align: center;
+}
+
+
